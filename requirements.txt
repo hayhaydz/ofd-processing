@@ -1,0 +1,22 @@
+# Core PDF text extraction
+pdfplumber==0.11.6
+PyMuPDF==1.25.5
+
+# --- FUTURE / NOT YET IN USE ---
+# The following are planned for later phases but not installed or used yet.
+# Do not uncomment until the relevant phase is active.
+#
+# # Pipeline A fallback: Docling (IBM) - table layout analysis
+# docling
+#
+# # Pipeline B: AI-based extraction (NuExtract-tiny on local GPU)
+# transformers
+# accelerate
+# sentencepiece
+# torch  # installed via docling or separately for CUDA
+#
+# # CLI framework (if argparse becomes limiting)
+# typer
+#
+# # Testing
+# pytest

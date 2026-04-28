@@ -1,8 +1,35 @@
 
-static/sensitive/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
 
+# Virtual environment
+.venv/
+
+# Sensitive files - never commit
 *.pdf
-*.csv
+samples/
+example/
+
+# Output
+output/
 *.csv
 *.xlsx
 *.xls
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
