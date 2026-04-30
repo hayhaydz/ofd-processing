@@ -27,6 +27,7 @@ pip install -r requirements.txt
 python -m src.cli dump <pdf>                # both backends
 python -m src.cli dump <pdf> -b pdfplumber  # pdfplumber only
 python -m src.cli dump <pdf> -b pymupdf     # PyMuPDF only
+python -m src.cli process-csv ./samples -o ./example
 ```
 
  ```bash
